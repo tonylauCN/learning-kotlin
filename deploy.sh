@@ -18,7 +18,9 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo --theme book
+#hugo --theme book
+hugo --theme hugo-material-docs
+
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
