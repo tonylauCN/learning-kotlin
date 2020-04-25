@@ -1,1 +1,0 @@
-if(navigator.serviceWorker){navigator.serviceWorker.register("/learning-kotlin/sw.js",{scope:"/learning-kotlin/"});}
